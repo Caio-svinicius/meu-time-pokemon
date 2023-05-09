@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="favicon.ico" type="image/x-icon" />
+    <meta name="description" content="Site maneiro" />
+    <title>Projeto PokeDex</title>
+
+    <link rel="stylesheet" href="./src/css/cartoes.css">
+    <link rel="stylesheet" href="./src/css/listagem.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <main>
+      <section class="pokedex">
+        <div class="cartoes-pokemon">
+          <div class="cartao-pokemon tipo-eletrico" id="card-raichu">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Raichu</h2>
+                <span>#026</span>
+              </div>
+              <div class="tipo">
+                <span class="elemento">Raio</span>
+              </div>
+              <div class="cartao-imagem">
+                <img
+                  src="./src/images/Raichu.png"
+                  alt="Ilustração do pokemon Raichu"
+                />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 250</li>
+                  <li>Ataque: 400</li>
+                  <li>Defesa: 500</li>
+                  <li>Velocidade: 400</li>
+                  <li>Total: 1550</li>
+                </ul>
+              </div>
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Troca elétrica</li>
+                  <li>Trovão</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokemon tipo-psiquico" id="card-alakazam">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Alakazam</h2>
+                <span>#065</span>
+              </div>
+              <div class="tipo">
+                <span class="elemento">Psíquico</span>
+              </div>
+
+              <div class="cartao-imagem">
+                <img
+                  src="./src/images/Alakazam.png"
+                  alt="Ilustração do pokemon Alakazam"
+                />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 420</li>
+                  <li>Ataque: 510</li>
+                  <li>Defesa: 400</li>
+                  <li>Velocidade: 200</li>
+                  <li>Total: 1530</li>
+                </ul>
+              </div>
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Confusão</li>
+                  <li>Psíquico</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokemon tipo-fogo ativo" id="card-charizard">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Charizard</h2>
+                <span>#006</span>
+              </div>
+              <div class="tipo">
+                <span class="elemento">Fogo</span>
+                <span class="raridade">Shiny</span>
+              </div>
+
+              <div class="cartao-imagem">
+                <img
+                  src="./src/images/Charizard.png"
+                  alt="Ilustração do pokemon Charmander"
+                />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 400</li>
+                  <li>Ataque: 500</li>
+                  <li>Defesa: 400</li>
+                  <li>Velocidade: 320</li>
+                  <li>Total: 1620</li>
+                </ul>
+              </div>
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Chama furacão</li>
+                  <li>Explosão de Fogo</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokemon tipo-agua"  id="card-gyarados">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Gyarados</h2>
+                <span>#130</span>
+              </div>
+              <div class="tipo">
+                <span class="elemento">Agua</span>
+                <span class="raridade">Shiny</span>
+              </div>
+
+              <div class="cartao-imagem">
+                <img
+                  src="./src/images/gyarados.png"
+                  alt="Ilustração do pokemon Gyarados"
+                />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 300</li>
+                  <li>Ataque: 600</li>
+                  <li>Defesa: 500</li>
+                  <li>Velocidade: 300</li>
+                  <li>Total: 1700</li>
+                </ul>
+              </div>
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Jato D'Agua</li>
+                  <li>Cachoeira</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokemon tipo-fantasma" id="card-gengar">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Gengar</h2>
+                <span>#094</span>
+              </div>
+              <div class="tipo">
+                <span class="elemento">Fantasma</span>
+              </div>
+
+              <div class="cartao-imagem">
+                <img
+                  src="./src/images/gengar.png"
+                  alt="Ilustração do pokemon Gengar"
+                />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 300</li>
+                  <li>Ataque: 500</li>
+                  <li>Defesa: 400</li>
+                  <li>Velocidade: 400</li>
+                  <li>Total: 1600</li>
+                </ul>
+              </div>
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Lambida</li>
+                  <li>Bola sombria</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-pokemon tipo-fogo" id="card-arcanine">
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Arcanine</h2>
+                <span>#059</span>
+              </div>
+              <div class="tipo">
+                <span class="elemento">Fogo</span>
+                <span class="raridade">Shiny</span>
+              </div>
+
+              <div class="cartao-imagem">
+                <img
+                  src="./src/images/Arcanine.png"
+                  alt="Ilustração do pokemon Arcanine"
+                />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Status</h3>
+
+                <ul>
+                  <li>HP: 400</li>
+                  <li>Ataque: 600</li>
+                  <li>Defesa: 400</li>
+                  <li>Velocidade: 400</li>
+                  <li>Total: 1800</li>
+                </ul>
+              </div>
+              <div class="habilidades">
+                <h3>Habilidades</h3>
+
+                <ul>
+                  <li>Garras de fogo</li>
+                  <li>Bombardeio de chamas</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <nav class="listagem">
+            <ul>
+                <li class="pokemon selecionado" id="raichu">
+                    <img src="./src/images/cabeca-raichu.png" alt="ilustação da cabeça do pokemon Raichu">
+                    <span>Raichu</span>
+                </li>
+                <li class="pokemon" id="alakazam">
+                    <img src="./src/images/cabeca-alakazam.png" alt="ilustação da cabeça do pokemon Alakazam">
+                    <span>Alakazam</span>
+                </li>
+                <li class="pokemon" id="charizard">
+                    <img src="./src/images/cabeca-charizard.png" alt="Ilustação da cabeça do pokemon Charizard">
+                    <span>Charizard</span>
+                </li>
+                <li class="pokemon" id="gyarados">
+                    <img src="./src/images/cabeca-gyarados.png" alt="Ilustação da cabeça do pokemon Gyarados">
+                    <span>Gyarados</span>
+                </li>
+                <li class="pokemon" id="gengar">
+                    <img src="./src/images/cabeca-gengar.png" alt="Ilustração da cabeça do pokemon Gengar">
+                    <span>Gengar</span>
+                </li>
+                <li class="pokemon" id="arcanine">
+                    <img src="./src/images/cabeca-arcanine.png" alt="Ilustração da cabeça do pokemon Arcanine">
+                    <span>Arcanine</span>
+                </li>
+            </ul>
+        </nav>
+      </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
